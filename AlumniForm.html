@@ -9,11 +9,11 @@ Test right here~!!
 </style>
 
 <script src="https://intervarsity--rmadan.sandbox.my.site.com/alumniform/lightning/lightning.out.js"></script>
-
+Test right here~!!2
 <div data-lightning-out="true"></div>
-
+Test right here~!!3
   <script>
-
+console.log('test 1');
     const appName = 'c:OptOutFormWrapper';
     const componentName = 'c:optoutForm';
     const lightningEndpoint = 'https://intervarsity--rmadan.sandbox.my.site.com/alumniform';
@@ -21,6 +21,7 @@ Test right here~!!
     const componentAttributes = {
 
     };
+    console.log('test 2');
 
     $Lightning.use(
             appName,
@@ -30,15 +31,15 @@ Test right here~!!
                       componentAttributes,
                       targetElement,
                       function (cmp){
-                        console.log('lightning component created');
+                        
                       }
               );
             },
             lightningEndpoint
     );
-
+console.log('test 3');
 
   </script>
-
+Test right here~!!5
 
 </html>
